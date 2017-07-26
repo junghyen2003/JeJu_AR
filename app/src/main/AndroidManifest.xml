@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.jungh.jeju_ar">
+
+    <!-- 카메라 권한 -->
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.hardware.camera.autofocus" />
+
+    <!-- 위치 권한 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!-- 인터넷 권한 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- if you want to load images from a file OR from the internet -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LogoActivity">
+            <intent-filter>
+
+                <!-- 어플리케이션 실행 시 처음 보이는 액티비티 -->
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ThemeInfoActivity" />
+        <activity android:name=".youtube.YoutubeActivity"/>
+        <activity android:name=".VRImageActivity" />
+        <activity
+            android:name=".VRVideoActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".VRAnimationActivity" />
+        <activity
+            android:name=".VROverlapActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_vroverlap"
+            android:theme="@style/FullscreenTheme" />
+        <activity android:name=".PreviewActivity"></activity>
+    </application>
+
+</manifest>

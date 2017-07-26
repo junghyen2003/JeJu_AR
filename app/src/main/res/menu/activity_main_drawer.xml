@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_camera"
+            android:title="Camera" />
+        <item
+            android:id="@+id/nav_restaurant"
+            android:icon="@drawable/ic_restaurant"
+            android:title="Restaurant" />
+        <item
+            android:id="@+id/nav_tourist"
+            android:icon="@drawable/ic_tourist"
+            android:title="Tourist Attractions" />
+        <item
+            android:id="@+id/nav_shopping"
+            android:icon="@drawable/ic_shopping"
+            android:title="Shopping" />
+        <item
+            android:id="@+id/nav_restroom"
+            android:icon="@drawable/ic_restroom"
+            android:title="Restroom" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
