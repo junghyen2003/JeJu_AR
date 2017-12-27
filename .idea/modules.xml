@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/JeJu_ARv2.iml" filepath="$PROJECT_DIR$/JeJu_ARv2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JeJu_AR.iml" filepath="$PROJECT_DIR$/JeJu_AR.iml" />
+      <module fileurl="file://C:\Users\jungh\Documents\SourceTree\JeJu_AR\JeJu_ARv2.iml" filepath="C:\Users\jungh\Documents\SourceTree\JeJu_AR\JeJu_ARv2.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\jungh\Documents\SourceTree\JeJu_AR\app\app.iml" filepath="C:\Users\jungh\Documents\SourceTree\JeJu_AR\app\app.iml" />
     </modules>
   </component>
 </project>
